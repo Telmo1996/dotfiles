@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo apt-get install rofi
+sudo apt-get install rofi i3blocks

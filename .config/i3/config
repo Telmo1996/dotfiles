@@ -196,13 +196,19 @@ bindsym $mod+r mode "resize"
 
 # ################################ RICE ########################## #
 
+set $negro	#08090b
+set $oscuro	#603928
+set $base	#a85f34
+set $claro	#d27d2f
+set $masClaro	#f3b366
+set $blanco	#f0f0f0
 
 # Widow Colours
-#                         border  background text    indicator
-  client.focused          $base01 $base01    $base07 $base0Fdlx
-  client.focused_inactive $base02 $base02    $base03 $base0F
-  client.unfocused        $base02 $base02    $base03 $base0F
-  client.urgent           $base02 $base08    $base00 $base0F
+#                         border	background	text		indicator
+  client.focused          $oscuro	$base		$blanco		$claro
+  client.focused_inactive $oscuro	$oscuro		$base		$claro
+  client.unfocused        $oscuro	$oscuro		$base		$claro
+  client.urgent           $base		$base		$blanco		$claro
 
 hide_edge_borders both
 
@@ -217,14 +223,14 @@ bar {
         #bindsym button4 nop
         #bindsym button5 nop
         colors {
-              separator $base03
-              background $base01
-              statusline $base05
-	#                        border  background text
-              focused_workspace  $base01 $base01    $base07
-              active_workspace   $base01 $base02    $base03
-              inactive_workspace $base01 $base01    $base03
-              urgent_workspace   $base01 $base01    $base08
+              separator $blanco
+              background $oscuro
+              statusline $blanco
+	#                        border 	background	text
+              focused_workspace  $oscuro	$oscuro		$blanco
+              active_workspace   $oscuro	$claro		$claro
+              inactive_workspace $oscuro	$oscuro		$claro
+              urgent_workspace   $base		$base		$blanco
     }
 }
 
