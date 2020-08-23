@@ -1,0 +1,149 @@
+/**
+ * rofi -dump-theme output.
+ * Rofi version: 1.5.0
+ **/
+* {
+    foreground:       rgba ( 255, 238, 221, 100 % );
+    lightmagenta:     rgba ( 153, 102, 0, 100 % );
+    black:            rgba ( 61, 53, 42, 100 % );
+    yellow:           rgba ( 232, 174, 91, 100 % );
+    red:              rgba ( 205, 92, 92, 100 % );
+    lightblack:       rgba ( 85, 68, 68, 100 % );
+    lightblue:        rgba ( 135, 206, 235, 100 % );
+    cyan:             rgba ( 176, 196, 222, 100 % );
+    lightyellow:      rgba ( 255, 167, 93, 100 % );
+    dark:             rgba ( 28, 28, 28, 100 % );
+    lightred:         rgba ( 204, 85, 51, 100 % );
+    transparent:      rgba ( 0, 0, 0, 0 % );
+    tcyan:            rgba ( 204, 176, 196, 87 % );
+    blue:             rgba ( 100, 149, 237, 100 % );
+    magenta:          rgba ( 222, 184, 135, 100 % );
+    tlightblack:      rgba ( 85, 68, 68, 80 % );
+    font:             "Sauce Code Powerline Medium 20";
+    highlight:        bold underline rgba ( 255, 255, 255, 100 % );
+    lightcyan:        rgba ( 176, 196, 222, 100 % );
+    white:            rgba ( 187, 170, 153, 100 % );
+    lightwhite:       rgba ( 221, 204, 187, 100 % );
+    background-color: rgba ( 0, 0, 0, 0 % );
+    green:            rgba ( 134, 175, 128, 100 % );
+    lightgreen:       rgba ( 136, 204, 34, 100 % );
+    backlight:        rgba ( 204, 255, 238, 87 % );
+}
+window {
+    padding:          10px ;
+    anchor:           center;
+    orientation:      horizontal;
+    location:         center;
+    border-radius:    10px ;
+    border:           100px ;
+    children:         [ vertb,mainbox ];
+    spacing:          0;
+    transparency:     "screenshot";
+    text-color:       @magenta;
+    background-color: @transparent;
+}
+mainbox {
+    spacing:  0;
+    children: [ inputbar,message,listview ];
+}
+message {
+    background-color: @tcyan;
+    border:           0px 2px 2px ;
+    border-color:     @foreground;
+    text-color:       @black;
+    padding:          5;
+    font:             "Sauce Code Powerline ExtraLight 8";
+}
+inputbar {
+    background-color: @tlightblack;
+    border:           2px ;
+    border-color:     @foreground;
+    border-radius:    15px 15px 0px 0px ;
+    text-color:       @lightgreen;
+    font:             "Sauce Code Pro 18";
+    padding:          11px ;
+}
+entry {
+    text-font:  inherit;
+    text-color: inherit;
+}
+prompt {
+    text-font:  inherit;
+    text-color: inherit;
+}
+case-indicator {
+    text-font:  inherit;
+    text-color: inherit;
+}
+listview {
+    background-color: rgba ( 28, 28, 28, 80 % );
+    border:           0px 2px 2px ;
+    border-color:     @foreground;
+    lines:            10;
+    dynamic:          false;
+    padding:          8px ;
+    border-radius:    0px 0px 15px 15px ;
+}
+element {
+    background-color: rgba ( 0, 0, 0, 0 % );
+    border-radius:    4px ;
+    vertical-align:   0.50;
+    text-color:       @foreground;
+    font:             inherit;
+    padding:          3px ;
+}
+element selected.normal {
+    background-color: @blue;
+}
+element selected.active {
+    background-color: @lightblue;
+    foreground:       @dark;
+}
+element selected.urgent {
+    background-color: @lightred;
+    foreground:       @dark;
+}
+element normal.active {
+    foreground: @lightblue;
+}
+element normal.urgent {
+    foreground: @lightred;
+}
+element alternate.active {
+    foreground: @lightblue;
+}
+element alternate.urgent {
+    foreground: @lightred;
+}
+vertb {
+    expand:   false;
+    children: [ dummy0,sidebar,dummy1 ];
+}
+dummy0 {
+    expand: true;
+}
+dummy1 {
+    expand: true;
+}
+sidebar {
+    expand:      false;
+    orientation: vertical;
+    border:      0px ;
+    spacing:     0px ;
+}
+button {
+    horizontal-align: 0.50;
+    padding:          6px ;
+    border-radius:    4px 0px 0px 4px ;
+    border:           2px 0px 2px 2px ;
+    font:             "FontAwesome 22";
+    border-color:     @foreground;
+    text-color:       @foreground;
+    background-color: @tlightblack;
+}
+button selected.normal {
+    background-color: @backlight;
+    border:           2px 0px 2px 2px ;
+    border-color:     @foreground;
+    text-color:       @dark;
+}
