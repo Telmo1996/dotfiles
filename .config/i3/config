@@ -240,7 +240,7 @@ bar {
 
 #exec firefox
 #exec i3-sensible-teminal
-exec feh --bg-scale /home/leto/Pictures/coolwave.jpg
+exec_always feh --bg-scale $HOME/fondosPantalla/Caracolas4kChoco.png
 
-exec compton -f
+#exec compton -f
 
