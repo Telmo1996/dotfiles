@@ -35,7 +35,7 @@ window {
     orientation:      horizontal;
     location:         center;
     border-radius:    10px ;
-    border:           100px ;
+    border:           0px ;
     children:         [ vertb,mainbox ];
     spacing:          0;
     transparency:     "screenshot";
@@ -61,7 +61,7 @@ inputbar {
     border-radius:    15px 15px 0px 0px ;
     text-color:       @lightgreen;
     font:             "Sauce Code Pro 18";
-    padding:          11px ;
+    padding:          20px ;
 }
 entry {
     text-font:  inherit;
@@ -79,9 +79,9 @@ listview {
     background-color: rgba ( 28, 28, 28, 80 % );
     border:           0px 2px 2px ;
     border-color:     @foreground;
-    lines:            10;
+    lines:            15;
     dynamic:          false;
-    padding:          8px ;
+    padding:          18px ;
     border-radius:    0px 0px 15px 15px ;
 }
 element {
@@ -90,7 +90,7 @@ element {
     vertical-align:   0.50;
     text-color:       @foreground;
     font:             inherit;
-    padding:          3px ;
+    padding:          5px ;
 }
 element selected.normal {
     background-color: @blue;
