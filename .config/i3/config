@@ -220,7 +220,7 @@ hide_edge_borders smart
 bar {
         #status_command i3status
         status_command i3blocks -c ~/.i3/i3blocks.conf
-	#font pango: System San Francisco Display, FontAwesome 12
+		font pango: System San Francisco Display, FontAwesome 11
         position bottom
         #strip_workspace_numbers yes
         #bindsym button4 nop
@@ -236,6 +236,8 @@ bar {
               urgent_workspace   $base		$base		$blanco
     }
 }
+
+new_window 1pixel
 
 #exec firefox
 #exec i3-sensible-teminal
