@@ -242,5 +242,5 @@ bar {
 #exec i3-sensible-teminal
 exec feh --bg-scale /home/leto/Pictures/coolwave.jpg
 
-exec_always compton -f
+exec compton -f
 
