@@ -239,7 +239,7 @@ bar {
 
 #exec firefox
 #exec i3-sensible-teminal
-exec_always feh --bg-scale $HOME/fondosPantalla/Caracolas4kChoco.png
+exec_always . $HOME/.fondoRandom.sh
 
 exec compton -f
 
