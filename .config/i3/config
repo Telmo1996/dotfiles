@@ -199,12 +199,12 @@ bindsym $mod+r mode "resize"
 
 # ################################ RICE ########################## #
 
-set $negro	#08090b
-set $oscuro	#603928
-set $base	#a85f34
-set $claro	#d27d2f
+set $negro		#08090b
+set $oscuro		#603928
+set $base		#a85f34
+set $claro		#d27d2f
 set $masClaro	#f3b366
-set $blanco	#f0f0f0
+set $blanco		#ebc6a8
 
 # Widow Colours
 #                         border	background	text		indicator
