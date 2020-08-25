@@ -221,7 +221,7 @@ bar {
         #status_command i3status
         status_command i3blocks -c ~/.i3/i3blocks.conf
 		font pango: System San Francisco Display, FontAwesome 11
-        position bottom
+        position top
         #strip_workspace_numbers yes
         #bindsym button4 nop
         #bindsym button5 nop
