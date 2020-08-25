@@ -3,9 +3,9 @@
  * Rofi version: 1.5.0
  **/
 * {
-    foreground:       rgba ( 255, 238, 221, 100 % );
+    foreground:       rgba ( 235, 198, 168, 100 % );
     lightmagenta:     rgba ( 153, 102, 0, 100 % );
-    black:            rgba ( 61, 53, 42, 100 % );
+    black:            rgba ( 8, 9, 11, 10 % );
     yellow:           rgba ( 232, 174, 91, 100 % );
     red:              rgba ( 205, 92, 92, 100 % );
     lightblack:       rgba ( 85, 68, 68, 100 % );
@@ -28,13 +28,15 @@
     green:            rgba ( 134, 175, 128, 100 % );
     lightgreen:       rgba ( 136, 204, 34, 100 % );
     backlight:        rgba ( 204, 255, 238, 87 % );
+	border:			  rgba ( 96, 57, 40, 100 % );
+	/*border:			  rgba ( 243, 179, 102, 100 % );*/
 }
 window {
     padding:          10px ;
     anchor:           center;
     orientation:      horizontal;
     location:         center;
-    border-radius:    10px ;
+    border-radius:	  10px ;
     border:           0px ;
     children:         [ vertb,mainbox ];
     spacing:          0;
@@ -43,7 +45,7 @@ window {
     background-color: @transparent;
 }
 mainbox {
-    spacing:  0;
+    spacing:  4;
     children: [ inputbar,message,listview ];
 }
 message {
@@ -57,9 +59,9 @@ message {
 inputbar {
     background-color: @tlightblack;
     border:           2px ;
-    border-color:     @foreground;
-    border-radius:    15px 15px 0px 0px ;
-    text-color:       @lightgreen;
+    border-color:     @border;
+    border-radius:    5px 5px 5px 5px ;
+    text-color:       @foreground;
     font:             "Sauce Code Pro 18";
     padding:          20px ;
 }
@@ -78,11 +80,11 @@ case-indicator {
 listview {
     background-color: rgba ( 28, 28, 28, 80 % );
     border:           0px 2px 2px ;
-    border-color:     @foreground;
+    border-color:     @border;
     lines:            15;
     dynamic:          false;
     padding:          18px ;
-    border-radius:    0px 0px 15px 15px ;
+    border-radius:    5px 5px 5px 5px ;
 }
 element {
     background-color: rgba ( 0, 0, 0, 0 % );
