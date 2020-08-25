@@ -9,14 +9,16 @@
     yellow:           rgba ( 232, 174, 91, 100 % );
     red:              rgba ( 205, 92, 92, 100 % );
     lightblack:       rgba ( 85, 68, 68, 100 % );
-    lightblue:        rgba ( 135, 206, 235, 100 % );
+    /*lightblue:        rgba ( 135, 206, 235, 100 % );*/
+	lightblue:        rgba ( 168, 95, 52, 75 % );
     cyan:             rgba ( 176, 196, 222, 100 % );
     lightyellow:      rgba ( 255, 167, 93, 100 % );
     dark:             rgba ( 28, 28, 28, 100 % );
     lightred:         rgba ( 204, 85, 51, 100 % );
     transparent:      rgba ( 0, 0, 0, 0 % );
     tcyan:            rgba ( 204, 176, 196, 87 % );
-    blue:             rgba ( 100, 149, 237, 100 % );
+    /*blue:             rgba ( 100, 149, 237, 100 % );*/
+	blue:             rgba ( 96, 57, 40, 90 % );
     magenta:          rgba ( 222, 184, 135, 100 % );
     tlightblack:      rgba ( 85, 68, 68, 80 % );
     font:             "Sauce Code Powerline Medium 20";
