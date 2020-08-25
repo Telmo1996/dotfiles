@@ -79,7 +79,7 @@ case-indicator {
 }
 listview {
     background-color: rgba ( 28, 28, 28, 80 % );
-    border:           0px 2px 2px ;
+    border:           2px 2px 2px ;
     border-color:     @border;
     lines:            15;
     dynamic:          false;
