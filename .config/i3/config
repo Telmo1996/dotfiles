@@ -233,7 +233,7 @@ bar {
               focused_workspace  $oscuro	$oscuro		$blanco
               active_workspace   $oscuro	$claro		$claro
               inactive_workspace $oscuro	$oscuro		$claro
-              urgent_workspace   $base		$base		$blanco
+              urgent_workspace   $base		$blanco		$base
     }
 }
 
@@ -245,3 +245,4 @@ exec_always . $HOME/.fondoRandom.sh
 
 exec compton -f
 
+exec --no-startup-id i3-msg "workspace $ws1; exec firefox"
