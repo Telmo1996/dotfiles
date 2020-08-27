@@ -237,7 +237,7 @@ bar {
     }
 }
 
-new_window 1pixel
+new_window none
 
 #exec firefox
 #exec i3-sensible-teminal
