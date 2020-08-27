@@ -162,6 +162,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 #assign [class="Firefox"] $ws1
+for_window [class="Spotify"] move to workspace $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -230,9 +231,9 @@ bar {
               background $oscuro
               statusline $blanco
 	#                        border 	background	text
-              focused_workspace  $oscuro	$oscuro		$blanco
+              focused_workspace  $oscuro	$oscuro		$claro
               active_workspace   $oscuro	$claro		$claro
-              inactive_workspace $oscuro	$oscuro		$claro
+              inactive_workspace $oscuro	$oscuro		$blanco
               urgent_workspace   $base		$blanco		$base
     }
 }
