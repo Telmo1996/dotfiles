@@ -11,3 +11,6 @@ sudo apt-get install alacritty
 
 #scripts wapos pa flexear colores
 git clone https://github.com/stark/color-scripts
+
+#para cambiar el editor
+sudo update-alternatives --config editor
