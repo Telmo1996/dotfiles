@@ -1,0 +1,64 @@
+:q	salir
+:w	guardar
+:wq 	guardar y salir
+:q!	salir sin guardar
+
+h	izqd
+j	abajo
+k	arriba
+l	dcha
+gg	subir al principio
+G	bajar al final
+}	bajar un bloque
+{	subir un bloque
+
+w	siguiente palabra / W ignora puntuacion
+b	anterior palabra / B ignora puntuacion
+:30	a la linea 30
+0	al comienzo de linea
+$	al final de linea
+t(algo)	go to algo antes (en la linea)	|-> ;	mueve al siguiente algo
+f(algo)	go to algo encima		|
+%	salta entre parentesis, corchetes, etc...
+*	mueve a la siguiente palabra = q en la que estes
+
+i	insert mode
+I	insert mode al principio de la linea
+a	insert mode uno a la derecha
+A	insert mode al final de la linea
+o	inserta linea arriba y entra en insert mode
+O	lo mismo pero arriba
+v	visual mode
+V	visual mode linea
+^V	visual mode bloque
+esc	salir del mode
+
+yy	copiar linea
+dd	cortar linea
+d(move)	cortar lo que muevas
+p	pegar
+P	pegar linea arriba
+x	borra 1 en el cursor
+
+c	change:
+cw	change word. borra la palabra y te pone en insert
+dw	borra la palabra
+C	borra el resto de la linea y te pone en insert
+
+u	undo
+^R	redo
+.	repetir
+
+zz	centra la vista
+
+~	togle case
+r(algo)	cambia el cursor por algo
+<	|-> indentar
+>	|
+q	empezar macro
+
+Combinaciones Fancy:
+
+[dc]t(algo)	borra/cambia hasta algo
+
+estoy en minuto 22:18 de Vim Tutorial
