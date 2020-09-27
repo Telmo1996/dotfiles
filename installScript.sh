@@ -14,3 +14,6 @@ git clone https://github.com/stark/color-scripts
 
 #para cambiar el editor
 sudo update-alternatives --config editor
+
+# para brillo portatil
+# https://unix.stackexchange.com/questions/526653/control-screen-brightness-in-i3
