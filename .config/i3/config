@@ -163,6 +163,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 #assign [class="Firefox"] $ws1
 assign [class="Microsoft Teams - Preview"] $ws8
+for_window [class="Microsoft Teams - Preview"] floating enable
 for_window [class="Spotify"] move to workspace $ws10
 
 # reload the configuration file
