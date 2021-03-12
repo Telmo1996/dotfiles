@@ -5,13 +5,13 @@ background_opacity: 1.0
 colors:
   # Default colors
   primary:
-    background: '0x5a3728'
-    foreground: '0xebc6a8'
+    background: '0x18100a'
+    foreground: '0xe8c7ac'
 
   # Normal colors
   normal:
-    black:   '0x08090b'
-    red:     '0x1e0908'
+    black:   '0x63233e'
+    red:     '0x762c25'
     green:   '0xba5225'
     yellow:  '0xc85221'
     blue:    '0xde541d'
@@ -21,7 +21,7 @@ colors:
 
   # Bright colors
   bright:
-    black:   '0x27150a'
+    black:   '0x904f27'
     red:     '0x670201'
     green:   '0x5f681e'
     yellow:  '0xf3b366'
