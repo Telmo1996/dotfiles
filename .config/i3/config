@@ -165,8 +165,9 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 #GAPERINO
 for_window [class=".*"] border pixel 0
+smart_gaps inverse_outer
 gaps inner 8
-gaps outer 0
+gaps outer -8
 
 
 
