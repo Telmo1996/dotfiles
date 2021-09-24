@@ -19,3 +19,7 @@ sudo update-alternatives --config editor
 
 # para brillo portatil
 # https://unix.stackexchange.com/questions/526653/control-screen-brightness-in-i3
+
+#Añadir al final de ~/.bashrc
+#Scripts Directory
+PATH=$HOME/scripts:$PATH
