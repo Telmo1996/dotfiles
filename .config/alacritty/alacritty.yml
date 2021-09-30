@@ -10,7 +10,7 @@ colors:
 
   # Normal colors
   normal:
-    black:   '0x984267'
+    black:   '0x47011f'
     red:     '0x883730'
     green:   '0xba5225'
     yellow:  '0xc85221'
@@ -26,9 +26,10 @@ colors:
     green:   '0x5f681e'
     yellow:  '0xf3b366'
     blue:    '0x7a917c'
-    magenta: '0x9262a5'
+    magenta: '0xad37dd'
     cyan:    '0xc0b499'
     white:   '0xf0f0f0'
+
 
 font:
   normal:
@@ -47,7 +48,7 @@ font:
     family: monospace
     style: Bold Italic
 
-  size: 9
+  size: 8
 
 window:
   padding:
