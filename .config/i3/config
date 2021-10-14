@@ -164,10 +164,10 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 
 #GAPERINO
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 2
 smart_gaps inverse_outer
-gaps inner 8
-gaps outer -8
+gaps inner 6
+gaps outer -6
 
 
 
@@ -221,9 +221,9 @@ set $blanco		#ebc6a8
 
 # Widow Colours
 #                         border	background	text		indicator
-  client.focused          $oscuro	$base		$blanco		$claro
-  client.focused_inactive $oscuro	$oscuro		$base		$claro
-  client.unfocused        $oscuro	$oscuro		$base		$claro
+  client.focused          $oscuro	$blanco		$blanco		$claro
+  client.focused_inactive $oscuro	$base		$base		$claro
+  client.unfocused        $oscuro	$base		$base		$claro
   client.urgent           $base		$base		$blanco		$claro
 
 hide_edge_borders smart
