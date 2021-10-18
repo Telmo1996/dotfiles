@@ -13,3 +13,4 @@ set undofile
 set incsearch
 set ignorecase
 set smartcase
+set scrolloff=10
