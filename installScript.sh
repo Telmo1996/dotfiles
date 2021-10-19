@@ -23,3 +23,6 @@ sudo update-alternatives --config editor
 #Añadir al final de ~/.bashrc
 #Scripts Directory
 PATH=$HOME/scripts:$PATH
+
+#crear /etc/sudoers.d/brillo y editarlo con visudo
+telmo ALL=(ALL:ALL) NOPASSWD:/usr/bin/tee /sys/class/backlight/amdgpu_bl0/brightness
