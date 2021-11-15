@@ -48,7 +48,7 @@ font:
     family: monospace
     style: Bold Italic
 
-  size: 8
+  size: 7
 
 window:
   padding:
