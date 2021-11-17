@@ -36,36 +36,39 @@ if ($acpi !~ /: (\w+), (\d+)%/) {
 $status = $1;
 $percent = $2;
 
+
 if ($status eq 'Discharging') {
+	$full_text = '';
+} elsif ($status eq 'Charging') {
+	$full_text = '   ';
+}elsif ($status eq 'Full') {
+	$full_text = '   ';
+}
+
+#if ($status eq 'Discharging') {
 
 	if ($percent < 5) {
-		$full_text = '';
+		$full_text .= '';
 	} elsif ($percent < 30) {
-		$full_text = '';
+		$full_text .= '';
 	} elsif ($percent < 60) {
-		$full_text = '';
+		$full_text .= '';
 	} elsif ($percent < 90) {
-		$full_text = '';
+		$full_text .= '';
 	} else {
-		$full_text.= '';
+		$full_text .= '';
 	}
 
-}
-
-
-if ($status eq 'Discharging') {
-	$full_text .= '';
-} elsif ($status eq 'Charging') {
-	$full_text .= ' ';
-}
+#}
 
 $full_text .= " $percent%";
 
 $short_text = $full_text;
 
-if ($acpi =~ /(\d\d:\d\d):/) {
-	$full_text .= " ($1)";
-}
+#Append time left
+#if ($acpi =~ /(\d\d:\d\d):/) {
+#	$full_text .= " ($1)";
+#}
 
 # print text
 print "$full_text\n";
