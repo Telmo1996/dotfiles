@@ -260,5 +260,5 @@ exec compton -f
 
 exec --no-startup-id i3-msg "workspace $ws1; exec firefox"
 
-bindsym $mod+z exec "/home/telmo/scripts/brillo 50"
-bindsym $mod+x exec "/home/telmo/scripts/brillo 200"
+bindsym $mod+x exec "/home/telmo/scripts/brillo + 25"
+bindsym $mod+z exec "/home/telmo/scripts/brillo - 25"
