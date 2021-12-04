@@ -2,4 +2,4 @@
 
 brillo="$( cat /sys/class/backlight/amdgpu_bl0/brightness )"
 
-echo $((brillo/25*10))%
+echo $((brillo*10/25))%
