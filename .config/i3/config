@@ -223,7 +223,7 @@ set $blanco		#ebc6a8
 #                         border	background	text		indicator
   client.focused          $oscuro	$blanco		$base		$claro
   client.focused_inactive $oscuro	$base		$blanco		$claro
-  client.unfocused        $oscuro	$base		$blanco		$claro
+  client.unfocused        $base		$oscuro		$blanco		$claro
   client.urgent           $base		$base		$blanco		$claro
 
 hide_edge_borders smart
