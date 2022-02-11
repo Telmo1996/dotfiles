@@ -61,4 +61,7 @@ Combinaciones Fancy:
 
 [dc]t(algo)	borra/cambia hasta algo
 
-estoy en minuto 22:18 de Vim Tutorial
+
+
+:set nu		Muestra numero de linea
+:set nonu	Deja de mostrar el numero de linea
