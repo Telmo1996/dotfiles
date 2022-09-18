@@ -118,22 +118,23 @@ fi
 
 
 # AdoptOpenJDK (Linux)
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+#export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 
-PATH=$JAVA_HOME/bin:$PATH
+#PATH=$JAVA_HOME/bin:$PATH
 
 # Maven
-MAVEN_HOME=$HOME/software/apache-maven-3.8.2
-PATH=$MAVEN_HOME/bin:$PATH
-export MAVEN_OPTS="-Xms512m -Xmx1024m"
+#MAVEN_HOME=$HOME/software/apache-maven-3.8.2
+#PATH=$MAVEN_HOME/bin:$PATH
+#export MAVEN_OPTS="-Xms512m -Xmx1024m"
 
 # IntelliJ IDEA
-IDEA_HOME=$HOME/software/ideaIU-2021.2.2
-PATH=$IDEA_HOME/bin:$PATH
+#IDEA_HOME=$HOME/software/ideaIU-2021.2.2
+#PATH=$IDEA_HOME/bin:$PATH
 
 
 #Scripts Directory
 PATH=$HOME/scripts:$PATH
 
 alias q='exec $HOME/scripts/.q'
+
 
