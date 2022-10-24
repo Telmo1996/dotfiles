@@ -1,0 +1,15 @@
+(Lx. x) y
+(Ly. x) y
+(Lx.Ly.x) y
+let id = Lx. x in id y
+let f = (Lx.Ly.x) y in f a
+let tru = Lt.Lf.t in let fls = Lt.Lf.f in let and = Lb.Lc.b c fls in and tru tru
+let tru = Lt.Lf.t in let fls = Lt.Lf.f in let or = Lb.Lc.b tru c in or tru fls
+let tru = Lt.Lf.t in let fls = Lt.Lf.f in let not = Lb.b fls tru in not tru
+let tru = Lt.Lf.t in let fls = Lt.Lf.f in let test = Ll.Lm.Ln.l m n in test tru v w
+let tru = Lt.Lf.t in let fls = Lt.Lf.f in let test = Ll.Lm.Ln.l m n in test fls v w
+let tru = Lt.Lf.t in let pair = Lf.Ls.Lb.b f s in let fst = Lp.p tru in fst (pair v w)
+let fls = Lt.Lf.f in let pair = Lf.Ls.Lb.b f s in let snd = Lp.p fls in snd (pair v w)
+let c0 = Ls.Lz.z in c0
+let c0 = Ls.Lz.z in let succ = Ln.Ls.Lz.s (n s z) in succ c0
+let c1 = Ls.Lz.s z in let c2 = Ls.Lz.s (s z) in let plus = Lm.Ln.Ls.Lz.m s (n s z) in plus c1 c2
